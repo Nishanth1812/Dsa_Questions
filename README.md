@@ -19,7 +19,7 @@ Browse by folder → Pick a topic or platform → Dive into the logic & code!
 ## 👨‍💻 Connect
 
 📧 dn8.porps@tmail.com  
-🔗 LinkedIn: [nishanthdevabathini](https://linkedin.com/in/nishanthdevabathini)
+🔗 LinkedIn: [Nishanth Devabathini](https://linkedin.com/in/nishanthdevabathini)
 
 ---
 
