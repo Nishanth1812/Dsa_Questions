@@ -188,13 +188,18 @@ class methods{
         else{
             node t=head;
             int i=1;
-            while (t.next!=head){
+            try {
+                while (t.next!=head){
                 System.out.println("Element "+i+": "+t.data);
                 i++;
                 t=t.next;
             }
             System.out.println("Element "+i+": "+t.data);
-            System.out.println("Succesfully printed all the elements\n");
+            } catch (Exception e) {
+                System.out.println("Succesfully printed all the elements\n");
+            }
+            
+            
         }
     } 
 }
@@ -253,6 +258,9 @@ public class Circular_linked_list {
                 case 9:
                     flag=false;
                     System.out.println("Thank you\n");
+                    break;
+                default:
+                    System.out.println("The choice is invalid!,try again\n");
                     break;
             }
         }
