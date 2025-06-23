@@ -188,17 +188,15 @@ class methods{
         else{
             node t=head;
             int i=1;
-            do { 
-                System.out.println("element "+i+": "+t.data+"\n");
+            while (t.next!=head){
+                System.out.println("Element "+i+": "+t.data);
                 i++;
                 t=t.next;
-            } while (t!=head);
+            }
+            System.out.println("Element "+i+": "+t.data);
             System.out.println("Succesfully printed all the elements\n");
         }
     } 
-
-
-
 }
 
 
